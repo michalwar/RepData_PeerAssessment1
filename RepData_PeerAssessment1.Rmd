@@ -1,3 +1,5 @@
+## Reproducible Research: Peer Assessment 1
+
 ---
 title: "Reproducible Research: Peer Assessment 1"
 author: "Michal_Warszycki"
@@ -7,7 +9,7 @@ output:
   df_print: paged
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
