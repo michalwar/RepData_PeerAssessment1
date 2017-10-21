@@ -113,6 +113,8 @@ ggplot(Step_days_mean,
         ggtitle("Mean of steps taken per day") 
 
 ```
+![plot 2](Result_plots/2.JPG) 
+
 
 # What is the median of steps taken per day?
 Below is the code used to generate the chart which is after.
@@ -144,7 +146,7 @@ ggplot(Step_days_median,
     ggtitle("Median of steps taken per day") 
 
 ```
-![plot 2](Result_plots/2.JPG) 
+![plot 3](Result_plots/3.JPG) 
 
 
 # What is the average daily activity pattern?
@@ -192,7 +194,7 @@ ggplot(ActData_pattern,
 
 print(MaxI)
 ```
-![plot 3](Result_plots/3.JPG) 
+![plot 4](Result_plots/4.JPG) 
 
 
 # Filling records with NAs approach
@@ -299,7 +301,7 @@ print(MaxIAll)
 # Max values - avg steps at interval for data-set with missing values
 print(MaxI)
 ```
-![plot 4](Result_plots/4.JPG) 
+![plot 5](Result_plots/5.JPG) 
 
 
 # Are there differences in activity patterns between weekdays and weekends?
@@ -361,7 +363,7 @@ ggplot(data = ActDataAllw,
     geom_line() +
     facet_grid(Days~.)
 ```
-![plot 5](Result_plots/5.JPG) 
+![plot 6](Result_plots/6.JPG) 
 
 
 
