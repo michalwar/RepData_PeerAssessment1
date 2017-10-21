@@ -85,6 +85,8 @@ ggplot(Step_days_sum,
     scale_y_continuous(name = "Number of days (counts)") +
     ggtitle("Total number of steps taken per day") 
 ```
+![plot 1](Result_plots/1.jpeg) 
+
 
 # What is the mean of steps taken per day?
 Below is the code used to generate the chart which is after.
